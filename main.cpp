@@ -117,10 +117,12 @@ int main(int argc, char const * argv[])
 	try
 	{
 		std::string inputFilePath;
+		std::cout << "Enter path to file with ips" << std::endl;
 		std::cin >> inputFilePath;
 		std::ifstream inputFile{ inputFilePath };
 
 		std::string outputFilePath;
+		std::cout << "Enter path to output file" << std::endl;
 		std::cin >> outputFilePath;
 		std::ofstream outputFile{ outputFilePath };
 
